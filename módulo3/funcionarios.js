@@ -1,5 +1,3 @@
-console.log('Olá')
-
 const readline = require('readline')
 
 const rl = readline.createInterface({
@@ -35,7 +33,7 @@ function exibirMenu() {
                 break
             case '4':
 				break
-				editarFuncionario()
+				editarLembrete()
 				break
 			case '5':
 				removerFuncionario()
@@ -87,7 +85,7 @@ console.log(funcionarioMaiorSalario)
 exibirMenu()
 }
 
-function remover() {
+function removerLembrete() {
 	if (funcionarios.length == 0) {
 	console.log('Nada cadastrado.')
 	exibirMenu()
