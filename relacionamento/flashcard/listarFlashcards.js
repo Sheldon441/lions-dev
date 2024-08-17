@@ -1,8 +1,8 @@
-let flashcard = require('../data');
+let flashcards = require('../data');
 
 function listarFlashCards() {
-  listarBaralho().forEach(flashcard => {
-    console.log(`ID: ${flashcard.id}, título: ${flashcard.titulo}`);
+  flashcards.forEach(flashcard => {
+    console.log(`ID: ${flashcard.id}, Título: ${flashcard.titulo}`);
   });
 }
 
